@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&display=swap');
+
+/* Estilos del NavBar */
+/* =====================================header===================================== */
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    color: #ffa36a;
+    font-size: xx-large;
+
+}
+
+/* boton light y dark mode */
+.lightMode {
+    background-color: rgb(248, 248, 248);
+    color: #ffa36a;
+    transition: cubic-bezier(0.86, 0, 0.07, 1) 1s;
+
+}
+
+/* =====================================MAIN============================================= */
+body {
+    background-color: #000;
+    font-family: 'David Libre', serif;
+    color: #ffa36a;
+    transition: cubic-bezier(0.86, 0, 0.07, 1) 1s;
+}
+
+.text-center {
+    color: #ffa36a;
+    font-size: x-large;
+}
+.title{
+    color: #ffa36a;
+}
+
+h2 {
+    color: #ffa36a;
+    font-size: large;
+}
+
+.btnStyle {
+    background-color: #ffa36a;
+    color: white;
+}
+
+.datosIngresados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cardUsuarios {
+    background-color: rgb(49, 5, 90);
+    margin: 2%;
+    color: rgb(226, 224, 226);
+}
+
+.card-link{
+    font-size: medium;
+}
